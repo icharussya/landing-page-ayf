@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.respond {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* NAVBAR*/
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 30px;
+}
+/* HEADER*/
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('asean bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.header-ctn {
+    margin-bottom: 225px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-ctn p{
+    font-size: 4vmin;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-ctn h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 20px;
+    color: whitesmoke;
+}
