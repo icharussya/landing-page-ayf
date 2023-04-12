@@ -61,7 +61,7 @@ function submit() {
     } else {
         document.getElementById("warning").textContent = ""; 
         console.log(formData);
-        alert("Form sudah terisi");
+        alert("Berhasil terisi");
     }
 }
 
