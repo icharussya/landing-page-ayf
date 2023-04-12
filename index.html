@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASEAN Youth Forum</title>
-    <link href="asean logo.png" rel="shortcut icon">
+    <link href="https://i.ibb.co/xLyHBMb/asean-logo.png" rel="shortcut icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <h1>asean</h1>
-        <!-- <img src="asean logo.png" alt=""> -->
+        <img src="https://i.ibb.co/xLyHBMb/asean-logo.png" alt="logo" height="60px">
         <ul class="nav-link">
             <li class="respond"><a href="#"></a>Home</li>
             <li><a href="#"></a>About</li>
@@ -27,7 +26,7 @@
         <div class="header-ctn">
             <h1>ASEAN Youth Forum</h1>
             <div class="line"></div>
-            <p>A platform created to provide opportunities for youth in the ASEAN (Association of Southeast Asian Nations) region to gather and discuss issues related to the interests of youth in the region</p> 
+            <p id="description">A platform created to provide opportunities for youth in the ASEAN (Association of Southeast Asian Nations) region to gather and discuss issues related to the interests of youth in the region</p> 
             <a href="#" class="ctn">Learn More</a>
         </div>
     </header>
@@ -40,13 +39,13 @@
         </div>
         <div class="row">
             <div class="article">
-                <img src="article 17.jpeg" alt="">
+                <img src="https://i.ibb.co/twRtQZ5/article-17.jpg" alt="">
                 <h4>[Talk] Selfmade, Youth, Imagining Inclusive Opportunities for Youth with Disabilities</h4>
                 <p>OVERVIEW The focus of Youth Talk Show is for young entrepreneurs with disabilities to share their experience and knowledge to the participants who are young people with and without disabilities across Southeast Asia.</p>
                 <a href="#" class="ctn">Read more</a>
             </div>
             <div class="article">
-                <img src="talk show.jpeg" alt="">
+                <img src="https://i.ibb.co/v4QbmNj/talk-show.jpg" alt="">
                 <h4>Youth: Open Space #17 : The Trails of Youth Activism</h4>
                 <p>In this Open Space, AYF is providing a platform for youth record youth’s experience in doing activism and advocating their concerned issues. During the pandemic, youth initiatives do not stop </p>
                 <a href="#" class="ctn">Read more</a>
@@ -59,23 +58,21 @@
                 <div class="left">
                     <div class="left-container">
                         <h2>For more information</h2>
-                        <p>Connect AYF untuk mendapat informasi lebih lanjut dan mendapat notifikasi berita terbaru mengenai ASEAN</p>
+                        <p>Connect with AYF to get more information and get the latest news notifications about ASEAN</p>
                     </div>
                 </div>
                 <div class="right">
                     <div class="right-container">
-                        <form action="">
-                            <h2>Connect with AYF</h2>
-                            <input type="text" id="name" placeholder="Nama">
-                            <input type="text" id="city" placeholder="Kota">
-                            <input type="email"id="email" placeholder="Email">
-                            <input type="number" id="zip-code" placeholder="Zip Code">
-                            <div id="warning">
-
-                            </div>
-                            <label fid="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
-                            <input type="checkbox" id="status">
-                            <button id="submit-form" type="submit">Submit</button>
+                        <form id="form-id">
+                            <input type="text" id="name" name="name" placeholder="Nama">
+                            <input type="text" id="city" name="city" placeholder="City">
+                            <input type="email" id="email" name="email" placeholder="Email">
+                            <input type="number" id="zip-code" name="zip-code" placeholder="Zip Code">
+                            <label for="check" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan
+                                telah sesuai</label>
+                            <input type="checkbox" id="status" name="status" placeholder="status">
+                            <button type="submit" id="submit-form">Submit</button>
+                            <div id="warning"></div>
                         </form>
                     </div>
 
@@ -86,7 +83,8 @@
     </section>
 
     <footer>
-        <a href="https://skilvul.com"><img src="logo skilvul.png"></a>
+        <a id="link" href="https://skilvul.com"><img src="https://i.ibb.co/GtsckFB/logo-skilvul.png"></a>
+        <p>Home | About | Article | Community</p>
         
     <p class="cr">Copyright © 2023 | ASEAN Youth Forum</p>
     </footer>
